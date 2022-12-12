@@ -1,10 +1,14 @@
 import React from "react";
-import Dashboard from "./components/Dashboard";
+import MessengerPage from "./pages/MessengerPage";
 
-function App() {
-  return (
-    <Dashboard />
-  );
+
+function App(props) {
+
+
+    return (
+        <MessengerPage />
+    )
 }
+
 
 export default App;
